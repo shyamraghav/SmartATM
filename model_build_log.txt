@@ -1,0 +1,31 @@
+INFO :: 2020-04-07 12:17:13,207 ::  * Restarting with stat
+WARNING :: 2020-04-07 12:17:20,201 ::  * Debugger is active!
+INFO :: 2020-04-07 12:17:20,314 ::  * Debugger PIN: 971-882-978
+INFO :: 2020-04-07 12:17:20,324 ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO :: 2020-04-07 12:17:45,241 ::  * Detected change in 'E:\\Pycharm Projects\\SmartATM\\app.py', reloading
+INFO :: 2020-04-07 12:17:45,804 ::  * Restarting with stat
+WARNING :: 2020-04-07 12:17:48,421 ::  * Debugger is active!
+INFO :: 2020-04-07 12:17:48,428 ::  * Debugger PIN: 971-882-978
+INFO :: 2020-04-07 12:17:48,432 ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO :: 2020-04-07 12:17:55,299 :: 127.0.0.1 - - [07/Apr/2020 12:17:55] "[37mGET /sendmail/Shyam/shyamramanan@gmail.com HTTP/1.1[0m" 200 -
+INFO :: 2020-04-07 12:19:04,672 :: Predict Request : lend me some cash
+INFO :: 2020-04-07 12:19:04,672 :: Predicted as    : Withdrawal
+INFO :: 2020-04-07 12:19:04,674 :: 127.0.0.1 - - [07/Apr/2020 12:19:04] "[37mGET /smartatm/lend%20me%20some%20cash HTTP/1.1[0m" 200 -
+INFO :: 2020-04-07 12:19:19,647 :: Evaluation for :lend me some cash
+INFO :: 2020-04-07 12:19:19,648 :: Predicted as : WD , User Answer : WD
+INFO :: 2020-04-07 12:19:19,811 :: 127.0.0.1 - - [07/Apr/2020 12:19:19] "[37mGET /update_confidence/Shyam/shyamramanan@gmail.com/lend%20me%20some%20cash/WD/WD HTTP/1.1[0m" 200 -
+INFO :: 2020-04-07 12:19:23,957 :: 127.0.0.1 - - [07/Apr/2020 12:19:23] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO :: 2020-04-07 12:19:27,598 :: 127.0.0.1 - - [07/Apr/2020 12:19:27] "[35m[1mGET /sendmail/Shyam/shyamramanan@gmail.com HTTP/1.1[0m" 500 -
+INFO :: 2020-04-07 12:19:39,103 :: 127.0.0.1 - - [07/Apr/2020 12:19:39] "[35m[1mGET /sendmail/Shyam/shyamramanan@gmail.com HTTP/1.1[0m" 500 -
+INFO :: 2020-04-07 12:19:42,177 :: 127.0.0.1 - - [07/Apr/2020 12:19:42] "[35m[1mGET /sendmail/Shyam/shyamramanan@gmail.com HTTP/1.1[0m" 500 -
+INFO :: 2020-04-07 12:19:44,923 :: 127.0.0.1 - - [07/Apr/2020 12:19:44] "[35m[1mGET /sendmail/Shyam/shyamramanan@gmail.com HTTP/1.1[0m" 500 -
+INFO :: 2020-04-07 12:20:51,296 ::  * Detected change in 'E:\\Pycharm Projects\\SmartATM\\sendmail.py', reloading
+INFO :: 2020-04-07 12:20:51,983 ::  * Restarting with stat
+WARNING :: 2020-04-07 12:20:55,108 ::  * Debugger is active!
+INFO :: 2020-04-07 12:20:55,113 ::  * Debugger PIN: 971-882-978
+INFO :: 2020-04-07 12:20:55,117 ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO :: 2020-04-07 12:25:47,319 ::  * Detected change in 'E:\\Pycharm Projects\\SmartATM\\sendmail.py', reloading
+INFO :: 2020-04-07 12:25:47,933 ::  * Restarting with stat
+WARNING :: 2020-04-07 12:25:53,424 ::  * Debugger is active!
+INFO :: 2020-04-07 12:25:53,431 ::  * Debugger PIN: 971-882-978
+INFO :: 2020-04-07 12:25:53,434 ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
