@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-# from flask_cors import CORS
+from flask_cors import CORS
 import train
 import predict
 import calculate
@@ -14,7 +14,7 @@ apilog = logging.getLogger()
 # apilog.info("API Running")
 
 app = Flask(__name__)
-# CORS(app)
+CORS(app)
 
 
 @app.route('/smartatm/<phrase>')
