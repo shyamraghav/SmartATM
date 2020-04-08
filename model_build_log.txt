@@ -29,3 +29,22 @@ INFO :: 2020-04-07 12:25:47,933 ::  * Restarting with stat
 WARNING :: 2020-04-07 12:25:53,424 ::  * Debugger is active!
 INFO :: 2020-04-07 12:25:53,431 ::  * Debugger PIN: 971-882-978
 INFO :: 2020-04-07 12:25:53,434 ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO :: 2020-04-07 18:09:24,716 ::  * Restarting with stat
+WARNING :: 2020-04-07 18:09:27,441 ::  * Debugger is active!
+INFO :: 2020-04-07 18:09:27,451 ::  * Debugger PIN: 971-882-978
+INFO :: 2020-04-07 18:09:27,455 ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO :: 2020-04-07 18:09:49,344 :: Predict Request : dude give me some dollars
+INFO :: 2020-04-07 18:09:49,344 :: Predicted as    : Withdrawal
+INFO :: 2020-04-07 18:09:49,346 :: 127.0.0.1 - - [07/Apr/2020 18:09:49] "[37mGET /smartatm/dude%20give%20me%20some%20dollars HTTP/1.1[0m" 200 -
+INFO :: 2020-04-07 18:10:06,705 :: Evaluation for :dude give me some dollars
+INFO :: 2020-04-07 18:10:06,706 :: Predicted as : WD , User Answer : WD
+INFO :: 2020-04-07 18:10:07,136 :: 127.0.0.1 - - [07/Apr/2020 18:10:07] "[37mGET /update_confidence/Shyam/shyamramanan@gmail.com/dude%20give%20me%20some%20dollars/WD/WD HTTP/1.1[0m" 200 -
+INFO :: 2020-04-07 18:10:13,890 :: 127.0.0.1 - - [07/Apr/2020 18:10:13] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO :: 2020-04-07 18:10:22,757 :: 127.0.0.1 - - [07/Apr/2020 18:10:22] "[35m[1mGET /sendmail/Shyam/shyamramanan@gmail.com HTTP/1.1[0m" 500 -
+INFO :: 2020-04-07 18:10:45,854 :: 127.0.0.1 - - [07/Apr/2020 18:10:45] "[35m[1mGET /sendmail/Shyam/shyamramanan@gmail.com HTTP/1.1[0m" 500 -
+INFO :: 2020-04-07 18:12:18,155 :: 127.0.0.1 - - [07/Apr/2020 18:12:18] "[35m[1mGET /sendmail/Shyam/shyamramanan@gmail.com HTTP/1.1[0m" 500 -
+INFO :: 2020-04-07 18:13:39,240 ::  * Restarting with stat
+WARNING :: 2020-04-07 18:13:41,710 ::  * Debugger is active!
+INFO :: 2020-04-07 18:13:41,717 ::  * Debugger PIN: 971-882-978
+INFO :: 2020-04-07 18:13:41,720 ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO :: 2020-04-07 18:13:48,178 :: 127.0.0.1 - - [07/Apr/2020 18:13:48] "[37mGET /sendmail/Shyam/shyamramanan@gmail.com HTTP/1.1[0m" 200 -

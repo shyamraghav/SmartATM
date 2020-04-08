@@ -38,7 +38,11 @@ def health():
 
 @app.route('/metrics')
 def graph_data():
-    return calculate.metrics()
+    try:
+        return calculate.metrics()
+
+    except Exception as e:
+        return str(e)
 
 
 @app.route('/update_confidence/<name>/<email>/<phrase>/<pred>/<ans>')

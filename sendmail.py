@@ -20,7 +20,7 @@ def get_data(email):
 
 def send_mail(name, receiver_email):
 
-    server.connect()
+    # server.connect()
     server.starttls()
     server.login("plannetsab@gmail.com", "sabapathy@123")
     subject = "Training Summary - Smart ATM"
@@ -39,4 +39,5 @@ Plannet SAB Team"""
 
     message = 'Subject: {}\n\n{}'.format(subject, text)
     server.sendmail("plannetsab@gmail.com", to_addrs=receiver_email, msg=message)
+
     server.quit()
