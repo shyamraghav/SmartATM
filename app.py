@@ -27,7 +27,10 @@ def smartatm(phrase):
 
 @app.route('/sendmail/<name>/<email>')    
 def send_mail(name, email):
-    sendmail.send_mail(name, email)
+    try:
+        sendmail.send_mail(name, email)
+    except Exception as e:
+        return str(e)
     return "ok"
 
 
